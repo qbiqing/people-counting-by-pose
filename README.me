@@ -1,0 +1,22 @@
+README.me
+
+
+Install tensorflow: https://www.tensorflow.org/install/
+
+Install OpenCV
+
+Place code directory pose-tensorflow into the tensorflow folder if using a virtualenv.
+
+Install necessary libraries:
+pip3 install scipy scikit-image matplotlib pyyaml easydict cython munkres
+
+Compile the libraries:
+./compile.sh
+
+To run the model for test videos:
+python3 demo_multiperson.py
+Can change the test video parameter inside the python file.
+
+To run the model on front camera or USB cam: python3 demo_frontcamera.py
+
+To see some result videos I’ve run and saved, look inside directory `result videos`
